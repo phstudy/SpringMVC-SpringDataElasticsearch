@@ -76,16 +76,19 @@ public class HomeController {
 	
 	@RequestMapping(value = "/httpservletrequest", method = RequestMethod.GET)
 	public String httpservletrequest(Locale locale, Model model) {
-		return "httpservletrequest";
+		model.addAttribute("url", "./rest/book2");
+		return "book";
 	}
 
 	@RequestMapping(value = "/pageable", method = RequestMethod.GET)
 	public String pageable(Locale locale, Model model) {
-		return "pageable";
+		model.addAttribute("url", "./rest/book1");
+		return "book";
 	}
 	
 	@RequestMapping(value = "/requestparam", method = RequestMethod.GET)
 	public String requestparam(Locale locale, Model model) {
-		return "requestparam";
+		model.addAttribute("url", "./rest/book3");
+		return "book";
 	}
 }

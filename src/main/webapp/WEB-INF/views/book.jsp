@@ -69,7 +69,7 @@
 			
 			var refreshTable = function(query, page) {
 			    $.ajax({
-			        url: './rest/book3?query=' + query + '&page=' + (page - 1),
+			        url: '${url}?query=' + query + '&page=' + (page - 1),
 			        type: "GET",
 			        dataType: 'json'
 			      }).success(function(data) {
