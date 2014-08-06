@@ -23,6 +23,7 @@
 				<li><a href="./pageable">Use <b>Pageable</b> to fetch HTTP GET parameter</a></li>
 				<li><a href="./httpservletrequest">Use <b>HttpServletRequest</b> to fetch HTTP GET parameter</a></li>
 				<li><a href="./requestparam">Use <b>@RequestParam</b> to fetch HTTP GET parameter</a></li>
+				<li><a href="./search">Reload whole page (Traditional)</a></li>
 			</ol>
 		</div>
 	</div>

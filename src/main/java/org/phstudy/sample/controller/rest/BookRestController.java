@@ -60,9 +60,7 @@ public class BookRestController {
 	@RequestMapping(value = "/rest/book3", method = RequestMethod.GET)
 	public Page<Book> useRequestParam(
 			@RequestParam(value = "query", required = false) String query,
-			@RequestParam(value = "page") int page) {
-		
-		int size = 10;
+			@RequestParam(value = "page") int page, @RequestParam(value = "size", required = false, defaultValue = "10") int size) {
 
 		logger.info("/rest/book3 -> pageNumber = {}", page);
 		
