@@ -5,7 +5,7 @@ An Example for Spring MVC and Spring Data Elasticsearch
 
 ## Setup Elasticsearch IP
   ```
-  /src/main/webapp/WEB-INF/spring/elasticsearch-context.xml
+  org.phstudy.sample.configuration.ElasticsearchConfig.java
   ```
   
 ## Run Example
